@@ -1,1 +1,49 @@
 // Specific CSS for your home-page
+.header-titles {
+  h1 {
+    font: 400 55px/1.3 "Merriweather", Georgia, serif;
+
+  }
+  h2 {
+    font: 300 40px/1.2 "Merriweather", Georgia, serif;
+  }
+  color: #4A4A4A;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.main-content {
+  font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  color: #4A4A4A;
+  h3 {
+  font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+.banner {
+  p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #4A4A4A;
+    padding: 0 20px 20px 20px;
+    font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+  }
+}
+
+.cta-button {
+  background-image: linear-gradient(#42B6C5, #0C8B9C);
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+
+  a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+}
