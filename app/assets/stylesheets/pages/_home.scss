@@ -10,6 +10,7 @@
   color: #4A4A4A;
   padding-bottom: 10px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .main-content {
@@ -30,4 +31,8 @@
     font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
   }
+}
+
+.cta-button-placement {
+  text-align: center;
 }
