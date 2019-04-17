@@ -8,18 +8,16 @@
     font: 300 40px/1.2 "Merriweather", Georgia, serif;
   }
   color: #4A4A4A;
-  padding-bottom: 10px;
   text-transform: capitalize;
   text-align: center;
+  width: 52vw;
+  margin: auto;
 }
 
-.main-content {
-  font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
-  color: #4A4A4A;
-  h3 {
-  font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
-  }
+.sub-header {
+  text-align: center;
+  width: 30vw;
+  margin: auto;
 }
 
 .banner {
@@ -31,8 +29,43 @@
     font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
   }
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 110px;
 }
 
+.main-content {
+  font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  color: #4A4A4A;
+  h3 {
+  font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
+  }
+}
 .cta-button-placement {
   text-align: center;
+}
+
+.steps {
+  padding-bottom: 40px;
+}
+
+.info {
+  padding-bottom: 40px;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-spacing {
+  text-align: justify;
+  width: 80vw;
+  margin: auto;
+}
+
+.bottom-main-content-spacer {
+  padding-bottom: 20px;
 }
