@@ -5,7 +5,8 @@
 
   }
   h2 {
-    font: 300 40px/1.2 "Merriweather", Georgia, serif;
+    font: 350 45px/1.2 "Merriweather", Georgia, serif;
+    padding-bottom: 20px;
   }
   color: #4A4A4A;
   text-transform: capitalize;
@@ -36,19 +37,40 @@
 }
 
 .main-content {
-  font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
+  p {
+  font-size: 1.6em;
   font-weight: 400;
-  color: #4A4A4A;
-  h3 {
-  font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
   }
+  h3 {
+  font-size: 2.2em;
+  font-weight: 800;
+  }
+  color: #4A4A4A;
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
 }
 .cta-button-placement {
   text-align: center;
+  padding-bottom: 20px;
+
 }
 
 .steps {
   padding-bottom: 40px;
+}
+
+.step-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step-copy {
+  width: 42vw;
+  margin: auto;
+}
+
+.step-mockup {
+  width: 30vw;
+  margin: auto;
 }
 
 .info {

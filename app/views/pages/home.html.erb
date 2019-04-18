@@ -15,15 +15,33 @@
     <h2>How does it work?</h2>
   </div>
   <div class="main-content">
-    <h3>1. Snipp the Essentials</h3>
-    <p>When listening to a podcast, reading a book, or scrolling through Twitter, find the key information you want to remember. Upload it to Snipps using the form.</p>
-    <%= image_tag 'form.png', height: '800'%>
-    <h3>2. Revisit for Recall</h3>
-    <p>Your Snipps become a personal database of learning. Search your library for a specific one or review daily for retention. Everything is in one place with an easy-to-read format to ensure you can find and remember.</p>
-    <%= image_tag 'archive.png', height: '800'%>
-    <h3>3. Engage in Community</h3>
-    <p>See what other people are snipping from your favorite podcasts and books. Discover new content to enjoy by following people you admire. Grow your audience by sharing your Snipps.</p>
-    <%= image_tag 'community.png', height: '800'%>
+    <div class="step-container">
+      <div class="step-copy">
+        <h3>1. Snipp the Essentials</h3>
+        <p>When listening to a podcast, reading a book, or scrolling through Twitter, find the key information you want to remember. Upload it to Snipps using the form.</p>
+      </div>
+      <div class="step-mockup">
+        <%= image_tag 'form.png', height: '600'%>
+      </div>
+    </div>
+      <div class="step-container">
+        <div class="step-mockup">
+          <%= image_tag 'archive.png', height: '600'%>
+        </div>
+        <div class="step-copy">
+          <h3>2. Revisit for Recall</h3>
+          <p>Your Snipps become a personal database of learning. Search your library for a specific one or review daily for retention. Everything is in one place with an easy-to-read format to ensure you can find and remember.</p>
+        </div>
+      </div>
+    <div class="step-container">
+      <div class="step-copy">
+        <h3>3. Engage in Community</h3>
+        <p>See what other people are snipping from your favorite podcasts and books. Discover new content to enjoy by following people you admire. Grow your audience by sharing your Snipps.</p>
+      </div>
+      <div class="step-mockup">
+        <%= image_tag 'community.png', height: '600'%>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -32,10 +50,12 @@
     <h2>Tell Me More</h2>
   </div>
   <div class="main-content main-content-spacing">
-    <p>We are consuming more content through more platforms than ever before. We read articles, tweets, and books, listen to podcasts, and watch videos without a good place to store what we learn. To avoid information overload and actually retain what is important, we need one
+    <div class="bottom-main-content-spacer">
+      <p>We are consuming more content through more platforms than ever before. We read articles, tweets, and books, listen to podcasts, and watch videos without a good place to store what we learn. To avoid information overload and actually retain what is important, we need one
     location to save, search, and share all we are learning. Snipp only the parts you
     find most valuable for later and learn with like-minded curators.</p>
-    <div class="phones-container">
+    </div>
+    <div class="phones-container bottom-main-content-spacer">
       <%= image_tag 'podcast_snipp.png', height: '600'%>
       <%= image_tag 'tweet_snipp.png', height: '600'%>
       <%= image_tag 'video_snipp.png', height: '600'%>
