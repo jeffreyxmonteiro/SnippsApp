@@ -32,8 +32,8 @@
   }
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
-  padding-bottom: 110px;
+  padding-top: 75px;
+  padding-bottom: 80px;
 }
 
 .main-content {
@@ -54,6 +54,10 @@
 
 }
 
+.spacer {
+  display: flex;
+  padding-bottom: 80px;
+}
 .steps {
   padding-bottom: 40px;
 }
