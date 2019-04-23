@@ -1,2 +1,157 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner">
+  <div class="header-titles">
+    <h1>Create bite-sized takeaways from your favorite content.</h1>
+  </div>
+  <div class="sub-header">
+    <p>Put everything you learn in one place. See what others are learning.</p>
+  </div>
+  <div class="cta-button-placement">
+    <!-- <a href="" class="cta-button" onclick="showMailingPopUp(); return false;" id="open-popup">Get Early Access</a> -->
+
+    <!-- Begin Mailchimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <div id="mailchimp" class="horizontal-mailchimp">
+    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=ee18994e08f14044c420c95d7&amp;id=cb08337b1e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+      <!-- <label for="mce-EMAIL">Get Early Access</label> -->
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ee18994e08f14044c420c95d7_cb08337b1e" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Get Early Access" name="subscribe" id="mc-embedded-subscribe"></div>
+        </div>
+    </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+
+
+  </div>
+</div>
+
+<div class="spacer">
+  <%= image_tag 'spacer.png', height: '202' %>
+</div>
+
+<div class="steps">
+  <div class="header-titles">
+    <h2>How does it work?</h2>
+  </div>
+  <div class="main-content">
+    <div class="step-container">
+      <div class="step-copy">
+        <h3>1. Snipp the Essentials</h3>
+        <p>When listening to a podcast, reading a book, or scrolling through Twitter, find the key information you want to remember. Upload it to Snipps using the form.</p>
+      </div>
+      <div class="step-mockup">
+        <%= image_tag 'form.png', height: '600'%>
+      </div>
+    </div>
+      <div class="step-container">
+        <div class="step-mockup">
+          <%= image_tag 'archive.png', height: '600'%>
+        </div>
+        <div class="step-copy">
+          <h3>2. Revisit for Recall</h3>
+          <p>Your Snipps become a personal database of learning. Search your library for a specific one or review daily for retention. Everything is in one place with an easy-to-read format to ensure you can find and remember.</p>
+        </div>
+      </div>
+    <div class="step-container">
+      <div class="step-copy">
+        <h3>3. Engage in Community</h3>
+        <p>See what other people are snipping from your favorite podcasts and books. Discover new content to enjoy by following people you admire. Grow your audience by sharing your Snipps.</p>
+      </div>
+      <div class="step-mockup">
+        <%= image_tag 'community.png', height: '600'%>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="info">
+  <div class="header-titles">
+    <h2>Tell Me More</h2>
+  </div>
+  <div class="main-content main-content-spacing">
+    <div class="bottom-main-content-spacer">
+      <p>We are consuming more content through more platforms than ever before. We read articles, tweets, and books, listen to podcasts, and watch videos without a good place to store what we learn. To avoid information overload and actually retain what is important, we need one
+    location to save, search, and share all we are learning. Snipp only the parts you
+    find most valuable for later and learn with like-minded curators.</p>
+    </div>
+    <div class="phones-container bottom-main-content-spacer">
+      <%= image_tag 'video_snipp.png', height: '600'%>
+      <%= image_tag 'tweet_snipp.png', height: '600'%>
+      <%= image_tag 'podcast_snipp.png', height: '600'%>
+    </div>
+  </div>
+</div>
+
+<div class="connect">
+  <div class="header-titles">
+    <h2>Learn With Us</h2>
+  </div>
+  <div class="main-content main-content-spacing bottom-main-content-spacer">
+    <p>Our team is hard at work building this members-only platform for you to enjoy noise-cancelling curation. Enter your email address to stay up-to-date on how the platform is developing AND be one of the first to use Snipps!</p>
+  </div>
+  <div class="cta-button-placement">
+    <!-- <a href="" class="cta-button" onclick="showMailingPopUp(); return false;" id="open-popup">Get Early Access</a> -->
+
+    <!-- Begin Mailchimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <div id="mailchimp" class="horizontal-mailchimp">
+    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=ee18994e08f14044c420c95d7&amp;id=cb08337b1e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+      <!-- <label for="mce-EMAIL">Get Early Access</label> -->
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ee18994e08f14044c420c95d7_cb08337b1e" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Get Early Access" name="subscribe" id="mc-embedded-subscribe"></div>
+        </div>
+    </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+  </div>
+</div>
+
+<!-- <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"ee18994e08f14044c420c95d7","lid":"cb08337b1e","uniqueMethods":true}) })</script>
+ -->
+
+<!-- <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script>
+function showMailingPopUp() {
+  require(
+    ["mojo/signup-forms/Loader"],
+    function(L) {
+      L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"ee18994e08f14044c420c95d7","lid":"cb08337b1e"})
+    }
+  );
+
+  document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+  document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+}
+
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script> -->
+
+<!--
+
+THE ORIGINAL
+ <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script>
+function showMailingPopUp() {
+  require(
+    ["mojo/signup-forms/Loader"],
+    function(L) {
+      L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"7f359a9e538573b27c9e39820","lid":"e64535f817"})
+    }
+  );
+
+  document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+  document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+}
+
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script> -->
+
+
+<!-- <a href="http://space.fitterbiz.com/the-magic-of-watermelon/" class="font"><p><a onclick="showMailingPopUp(); return false;" id="open-popup" style="cursor:pointer">Subscribe!</a> -->
