@@ -1,17 +1,21 @@
 // Specific CSS for your home-page
+
+
 .header-titles {
   h1 {
-    font: 400 55px/1.3 "Merriweather", Georgia, serif;
+    font-family: "Merriweather", Georgia, serif;
+    font-size: calc(16px + 3.8vw);
 
   }
   h2 {
-    font: 350 45px/1.2 "Merriweather", Georgia, serif;
+    font-family: "Merriweather", Georgia, serif;
+    font-size: calc(16px + 2.5vw);
     padding-bottom: 20px;
   }
   color: #4A4A4A;
   text-transform: capitalize;
   text-align: center;
-  width: 52vw;
+  width: 70vw;
   margin: auto;
 }
 
@@ -27,23 +31,13 @@
   height: auto;
 }
 
-.responsive-snipp {
-  width: 30%;
-  height: auto;
-}
-
-.responsive-mockup {
-  width: 70%;
-  height: auto;
-}
-
 .banner {
   p {
-    font-size: 20px;
     line-height: 28px;
     color: #4A4A4A;
-    padding: 0 20px 20px 20px;
-    font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
+    padding: 20px;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+    font-size: calc(14px + 1.1vw);
     font-weight: 400;
   }
   display: flex;
@@ -54,11 +48,11 @@
 
 .main-content {
   p {
-  font-size: 1.6em;
+  font-size: calc(10px + 1.1vw);
   font-weight: 400;
   }
   h3 {
-  font-size: 2.2em;
+  font-size: calc(3.6px + 3vw);
   font-weight: 800;
   }
   color: #4A4A4A;
@@ -80,6 +74,7 @@
 .step-container {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .step-copy {
@@ -88,8 +83,32 @@
 }
 
 .step-mockup {
-  width: 30vw;
+  width: 25vw;
   margin: auto;
+  text-align: center;
+  min-width: 190px;
+}
+
+.responsive-mockup {
+  width: 100%;
+  height: auto;
+}
+
+.responsive-snipp {
+  width: 100%;
+  height: auto;
+}
+
+.responsive-snipp-container {
+  text-align: center;
+  min-width: 300px;
+  width: 26vw;
+}
+
+.phones-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .info {
@@ -105,12 +124,6 @@
   text-align: justify;
   width: 80vw;
   margin: auto;
-}
-
-.phones-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .bottom-main-content-spacer {
@@ -131,30 +144,28 @@
   #mailchimp input {
     border: medium none;
     color: #4A4A4A; //button font color
-    font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+    font-size: calc(8px + 1.1vw);
     margin-bottom: 10px;
-    padding: 8px 10px;
-    width: 400px;
+    padding: 14px 10px;
+    width: 30vw;
+    min-width: 300px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
   }
     #mailchimp input.email { background: #fff } //field background
-    #mailchimp input[type="submit"] { //design for button
-    //   background: #EB56BB; //button color
-    //   color: #fff;
-    //   font-size: 15px;
-    //   width: 35%;
-    //   padding: 8px 0;
+    #mailchimp input[type="submit"] {
     background-color: #EB56BB;
     box-shadow: 0px 10px 40px -10px rgba(255,0,131,0.5);
     border-radius: 5px;
     font-weight: 500;
-    padding: 10px 30px;
+    padding: 14px 0px;
     color: white;
     text-decoration: none;
     transition: all 0.2s, transform 0.5s;
-    font: 400 1.6rem/1.3 "Lato", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+    font-size: calc(8px + 1.1vw);
 
     }
       #mailchimp input[type="submit"]:hover {
