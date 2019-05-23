@@ -1,174 +1,265 @@
-// Specific CSS for your home-page
+/*---------------------------------------------*/
+/* Basic Setup */
+/*---------------------------------------------*/
 
-
-.header-titles {
-  h1 {
-    font-family: "Merriweather", Georgia, serif;
-    font-size: calc(16px + 3.8vw);
-
-  }
-  h2 {
-    font-family: "Merriweather", Georgia, serif;
-    font-size: calc(16px + 2.5vw);
-    padding-bottom: 20px;
-  }
-  color: #4A4A4A;
-  text-transform: capitalize;
-  text-align: center;
-  width: 70vw;
-  margin: auto;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.sub-header {
-  text-align: center;
-  width: 80vw;
-  margin: auto;
-  padding-top: 20px;
+html, body {
+  color: #4a4a4a;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
-.responsive-spacer {
-  width: 100%;
-  height: auto;
+/*---------------------------------------------*/
+/* REUSUABLE COMPONENTS */
+/*---------------------------------------------*/
+
+/* ------ Headings ------ */
+
+h1, h2, h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.banner {
-  p {
-    line-height: 28px;
-    color: #4A4A4A;
-    padding: 20px;
-    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-    font-size: calc(14px + 1.1vw);
-    font-weight: 400;
-  }
-  display: flex;
-  flex-direction: column;
-  padding-top: 75px;
-  padding-bottom: 80px;
+h1 {
+  font-size: 240%;
+  word-spacing: 4px;
 }
 
-.main-content {
-  p {
-  font-size: calc(10px + 1.1vw);
-  font-weight: 400;
-  }
-  h3 {
-  font-size: calc(3.6px + 3vw);
-  font-weight: 800;
-  }
-  color: #4A4A4A;
-  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-}
-.cta-button-placement {
-  text-align: center;
-  padding-bottom: 20px;
-
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
 }
 
-.spacer {
-  padding-bottom: 80px;
-}
-.steps {
-  padding-bottom: 40px;
+h3 {
+  font-size: 110%;
 }
 
-.step-container {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
 
-.step-copy {
-  width: 42vw;
-  margin: auto;
-}
+/* ------ Paragraphs ------ */
 
-.step-mockup {
-  width: 25vw;
-  margin: auto;
-  text-align: center;
-  min-width: 190px;
-}
 
-.responsive-mockup {
-  width: 100%;
-  height: auto;
-}
+/* ------ Buttons ------ */
 
-.responsive-snipp {
-  width: 100%;
-  height: auto;
-}
 
-.responsive-snipp-container {
-  text-align: center;
-  min-width: 300px;
-  width: 26vw;
-}
+/*---------------------------------------------*/
+/* HEADER */
+/*---------------------------------------------*/
 
-.phones-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 
-.info {
-  padding-bottom: 40px;
-}
+/*---------------------------------------------*/
+/* WHATS A SNIPP DOE */
+/*---------------------------------------------*/
 
-.connect {
-  display: flex;
-  flex-direction: column;
-}
+/*---------------------------------------------*/
+/* FEATURES */
+/*---------------------------------------------*/
 
-.main-content-spacing {
-  text-align: justify;
-  width: 80vw;
-  margin: auto;
-}
+/*---------------------------------------------*/
+/* SNIPPS FOR TEAMS */
+/*---------------------------------------------*/
 
-.bottom-main-content-spacer {
-  padding-bottom: 20px;
-}
+/*---------------------------------------------*/
+/* PACKAGES */
+/*---------------------------------------------*/
 
-.horizontal-mailchimp .mc-field-group,
-.horizontal-mailchimp .clear {
-     display: inline-block;
-}
+/*---------------------------------------------*/
+/* LEARN WITH US */
+/*---------------------------------------------*/
 
-#mailchimp {
-  background: transparent;
-  color: #3D6392; //button color
-  padding: 20px 15px;
-  display: inline-block;
-}
-  #mailchimp input {
-    border: medium none;
-    color: #4A4A4A; //button font color
-    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-    font-size: calc(8px + 1.1vw);
-    margin-bottom: 10px;
-    padding: 14px 10px;
-    width: 30vw;
-    min-width: 300px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-  }
-    #mailchimp input.email { background: #fff } //field background
-    #mailchimp input[type="submit"] {
-    background-color: #EB56BB;
-    box-shadow: 0px 10px 40px -10px rgba(255,0,131,0.5);
-    border-radius: 5px;
-    font-weight: 500;
-    padding: 14px 0px;
-    color: white;
-    text-decoration: none;
-    transition: all 0.2s, transform 0.5s;
-    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-    font-size: calc(8px + 1.1vw);
 
-    }
-      #mailchimp input[type="submit"]:hover {
-        color: white;
-        opacity: .8;
-       } //design for hovering over button
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .header-titles {
+//   h1 {
+//     font-family: "Merriweather", Georgia, serif;
+//     font-size: calc(16px + 3.8vw);
+
+//   }
+//   h2 {
+//     font-family: "Merriweather", Georgia, serif;
+//     font-size: calc(16px + 2.5vw);
+//     padding-bottom: 20px;
+//   }
+//   color: #4A4A4A;
+//   text-transform: capitalize;
+//   text-align: center;
+//   width: 70vw;
+//   margin: auto;
+// }
+
+// .sub-header {
+//   text-align: center;
+//   width: 80vw;
+//   margin: auto;
+//   padding-top: 20px;
+// }
+
+// .responsive-spacer {
+//   width: 100%;
+//   height: auto;
+// }
+
+// .banner {
+//   p {
+//     line-height: 28px;
+//     color: #4A4A4A;
+//     padding: 20px;
+//     font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+//     font-size: calc(14px + 1.1vw);
+//     font-weight: 400;
+//   }
+//   display: flex;
+//   flex-direction: column;
+//   padding-top: 75px;
+//   padding-bottom: 80px;
+// }
+
+// .main-content {
+//   p {
+//   font-size: calc(10px + 1.1vw);
+//   font-weight: 400;
+//   }
+//   h3 {
+//   font-size: calc(3.6px + 3vw);
+//   font-weight: 800;
+//   }
+//   color: #4A4A4A;
+//   font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+// }
+// .cta-button-placement {
+//   text-align: center;
+//   padding-bottom: 20px;
+
+// }
+
+// .spacer {
+//   padding-bottom: 80px;
+// }
+// .steps {
+//   padding-bottom: 40px;
+// }
+
+// .step-container {
+//   display: flex;
+//   justify-content: space-between;
+//   padding-bottom: 20px;
+// }
+
+// .step-copy {
+//   width: 42vw;
+//   margin: auto;
+// }
+
+// .step-mockup {
+//   width: 25vw;
+//   margin: auto;
+//   text-align: center;
+//   min-width: 190px;
+// }
+
+// .responsive-mockup {
+//   width: 100%;
+//   height: auto;
+// }
+
+// .responsive-snipp {
+//   width: 100%;
+//   height: auto;
+// }
+
+// .responsive-snipp-container {
+//   text-align: center;
+//   min-width: 300px;
+//   width: 26vw;
+// }
+
+// .phones-container {
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+// }
+
+// .info {
+//   padding-bottom: 40px;
+// }
+
+// .connect {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .main-content-spacing {
+//   text-align: justify;
+//   width: 80vw;
+//   margin: auto;
+// }
+
+// .bottom-main-content-spacer {
+//   padding-bottom: 20px;
+// }
+
+// .horizontal-mailchimp .mc-field-group,
+// .horizontal-mailchimp .clear {
+//      display: inline-block;
+// }
+
+// #mailchimp {
+//   background: transparent;
+//   color: #3D6392;
+//   padding: 20px 15px;
+//   display: inline-block;
+// }
+//   #mailchimp input {
+//     border: medium none;
+//     color: #4A4A4A;
+//     font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+//     font-size: calc(8px + 1.1vw);
+//     margin-bottom: 10px;
+//     padding: 14px 10px;
+//     width: 30vw;
+//     min-width: 300px;
+//     border-radius: 5px;
+//     -moz-border-radius: 5px;
+//     -webkit-border-radius: 5px;
+//   }
+//     #mailchimp input.email { background: #fff }
+//     #mailchimp input[type="submit"] {
+//     background-color: #EB56BB;
+//     box-shadow: 0px 10px 40px -10px rgba(255,0,131,0.5);
+//     border-radius: 5px;
+//     font-weight: 500;
+//     padding: 14px 0px;
+//     color: white;
+//     text-decoration: none;
+//     transition: all 0.2s, transform 0.5s;
+//     font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+//     font-size: calc(8px + 1.1vw);
+
+//     }
+//       #mailchimp input[type="submit"]:hover {
+//         color: white;
+//         opacity: .8;
+//        }
