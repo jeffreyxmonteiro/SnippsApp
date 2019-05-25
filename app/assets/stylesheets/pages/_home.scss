@@ -82,10 +82,12 @@ h3 {
 #mailchimp input {
   border: medium none;
   color: #4A4A4A;
-  font-size: calc(8px + 1.1vw);
+  font-size: 110%;
+  font-weight: 300;
+  font-family: 'Lato', 'Arial', sans-serif;
   margin-bottom: 10px;
   padding: 14px 10px;
-  width: 30vw;
+  width: 20vw;
   min-width: 300px;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -103,7 +105,7 @@ h3 {
   color: white;
   text-decoration: none;
   padding: 14px 0px;
-  font-size: calc(8px + 1.1vw);
+  font-size: 110%;
 }
 
 #mailchimp input[type="submit"]:hover {
