@@ -33,7 +33,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 240%;
+  font-size: 260%;
   word-spacing: 4px;
   font-family: "Merriweather", Georgia, serif;
 }
@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-  font-size: 110%;
+  font-size: 130%;
 }
 
 
@@ -61,7 +61,12 @@ h3 {
 .hero-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center
+}
+
+.hero-header h1 {
+  margin-bottom: 20px;
+  line-height: 145%;
 }
 
 .cta-button-placement {
@@ -74,10 +79,7 @@ h3 {
 }
 
 #mailchimp {
-  // background: transparent;
-  // color: #3D6392;
   padding: 20px;
-  // display: inline-block;
 }
 #mailchimp input {
   border: medium none;
@@ -96,6 +98,7 @@ h3 {
 
 #mailchimp input.email {
   background: #fff;
+  margin-right: 10px;
 }
 
 #mailchimp input[type="submit"] {
