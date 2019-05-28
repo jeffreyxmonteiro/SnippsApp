@@ -129,6 +129,13 @@ h3 {
 
 .snipps-container {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.snipp-item {
+  width: 450px;
 }
 
 /*---------------------------------------------*/
