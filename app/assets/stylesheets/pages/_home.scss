@@ -40,6 +40,8 @@ h1 {
 h2 {
   font-size: 180%;
   word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -49,6 +51,11 @@ h3 {
 
 /* ------ Paragraphs ------ */
 
+.long-copy  {
+  line-height: 145%;
+  width: 62%;
+  margin-left: 19%;
+}
 
 /* ------ Buttons ------ */
 
@@ -116,10 +123,13 @@ h3 {
   opacity: .8;
  }
 
-
 /*---------------------------------------------*/
 /* WHATS A SNIPP DOE */
 /*---------------------------------------------*/
+
+.snipps-container {
+  display: flex;
+}
 
 /*---------------------------------------------*/
 /* FEATURES */
