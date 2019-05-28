@@ -25,11 +25,203 @@
     <%= image_tag('podcast_snipp.png', class: 'snipp-item')%>
   </div>
 </section>
+<section class="features">
+  <h2>Save, Search, and Share What You Learn</h2>
+  <div id="page-wrap">
 
+    <div id="rotator">
 
+      <div id="block-1" class="active">
+        <h4>Start with a Snipp</h4>
+        <div>
+          <h3>Start with a Snipp</h3>
+          <%= image_tag('video_snipp.png', class: 'snipp-feature')%>
+        </div>
+      </div>
 
+      <div id="block-2" class="non-active-top">
+        <h4>Build a Library</h4>
+        <div>
+          <h3>Build a Library</h3>
+          <%= image_tag('video_snipp.png', class: 'snipp-feature')%>
+        </div>
+      </div>
 
+      <div id="block-3" class="non-active-bottom">
+        <h4>Discover Snipps</h4>
+        <div>
+          <h3>Discover Snipps</h3>
+          <%= image_tag('video_snipp.png', class: 'snipp-feature')%>
+        </div>
+      </div>
 
+      <div id="block-4" class="non-active-bottom-bottom">
+        <h4>Snipps for Teams</h4>
+        <div>
+          <h3>Snipps for Teams</h3>
+          <%= image_tag('video_snipp.png', class: 'snipp-feature')%>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<section>
+  <h2>Save, Search, and Share What You Learn</h2>
+  <div class="tab-slider">
+    <ul class="ts-nav">
+      <li data-index="1">ITEM 1</li>
+      <li data-index="2">ITEM 2</li>
+      <li data-index="3">ITEM 3</li>
+      <li data-index="4">ITEM 4</li>
+      <li data-index="5">ITEM 5</li>
+    </ul>
+    <div class="ts-showcase">
+      <div class="showcase-item active">1</div>
+      <div class="showcase-item ">2</div>
+      <div class="showcase-item">3</div>
+      <div class="showcase-item">4</div>
+      <div class="showcase-item">5</div>
+    </div>
+  </div>
+
+</section>
+<section>
+  <h2>Save, Search, and Share What You Learn</h2>
+<div id="hero-tabs">
+  <div class="hero-tabs-image">
+    <div class="one tab-content">
+      <div class="colorblock miami-dolphins"></div>
+    </div>
+    <div class="two tab-content">
+      <div class="colorblock dania"></div>
+    </div>
+    <div class="three tab-content tab-content-active">
+      <div class="colorblock grapefruit-sunset"></div>
+    </div>
+  </div>
+  <!--hero-tabs-image-->
+
+  <div class="hero-tabs-content">
+    <div class="content-wrapper">
+      <div class="hero-tabs-nav">
+        <div class="tab-nav">
+          <div class="tab" data-content=".one"><span>Miami Dolphins</span></div>
+          <div class="tab" data-content=".two"><span>Dania</span></div>
+          <div class="tab tab-active" data-content=".three"><span>Grapefruit Sunset</span></div>
+        </div>
+        <!--tab-nav-->
+      </div>
+      <!--tab-nav-wrapper-->
+
+      <div class="hero-tabs-caption">
+        <div class="one tab-content">
+          <div class="caption-wrapper">
+            <span class="title">Miami Dolphins</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Elit quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+          </div>
+        </div>
+
+        <div class="two tab-content">
+          <div class="caption-wrapper">
+            <span class="title">Dania</span>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+            <p>Elit quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+          </div>
+        </div>
+
+        <div class="three tab-content tab-content-active">
+          <div class="caption-wrapper">
+            <span class="title">Grapefruit Sunset</span>
+            <%= image_tag('video_snipp.png', class: 'snipp-feature')%>
+          </div>
+        </div>
+
+      </div>
+      <!--hero-tabs-caption-->
+    </div>
+    <!--content-wrapper-->
+  </div>
+  <!--hero-tabs-content-->
+</div>
+
+</section>
+
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+
+  <!--
+    Thought of using jQuery UI's .addClass transitions as fallback (or primary) but doesn't work as well
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+  -->
+
+  <script>
+    // DOM Ready
+    $(function() {
+
+      var current;
+
+      function rotate() {
+
+        // This seems like a sucky way to do it, but you can't select by classes because they execute in order
+
+        if (current == 1) {
+          $("#block-1").removeClass().addClass("active");
+          $("#block-2").removeClass().addClass("non-active-top");
+          $("#block-3").removeClass().addClass("non-active-bottom");
+          $("#block-4").removeClass().addClass("non-active-bottom-bottom");
+        } else if (current == 2) {
+          $("#block-1").removeClass().addClass("non-active-bottom-bottom");
+          $("#block-2").removeClass().addClass("active");
+          $("#block-3").removeClass().addClass("non-active-top");
+          $("#block-4").removeClass().addClass("non-active-bottom");
+        } else if (current == 3) {
+          $("#block-1").removeClass().addClass("non-active-bottom");
+          $("#block-2").removeClass().addClass("non-active-bottom-bottom");
+          $("#block-3").removeClass().addClass("active");
+          $("#block-4").removeClass().addClass("non-active-top");
+        }
+          else {
+          $("#block-1").removeClass().addClass("non-active-top");
+          $("#block-2").removeClass().addClass("non-active-bottom");
+          $("#block-3").removeClass().addClass("non-active-bottom-bottom");
+          $("#block-4").removeClass().addClass("active");
+          }
+
+      }
+
+      $("#rotator div").click(function() {
+
+        // Enables reversing, idea via Andrea Canton: https://twitter.com/andreacanton/status/24954634279849985
+        current = this.id.substr(6);
+        rotate();
+
+      });
+
+    });
+  </script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+<script>
+  $(function(){
+    $('.ts-nav li').on('click', function(e){
+      var i = $(this).data('index')
+      $('.showcase-item').removeClass('active')
+      $(".showcase-item:nth-child("+i+")").addClass('active')
+    })
+  })
+</script>
+
+<script>
+  $('.tab').on('click', function(){
+    $(this).addClass('tab-active').siblings().removeClass('tab-active');
+    var content = $(this).data('content');
+    $(content).addClass('tab-content-active').siblings().removeClass('tab-content-active');
+  });
+</script>
 
 <!--
 <div class="banner">
