@@ -262,6 +262,36 @@ h4 {
 /* SNIPPS FOR TEAMS */
 /*---------------------------------------------*/
 
+.teams-illustration {
+  width: 550px;
+}
+
+.teams ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.teams ul li  {
+  padding: 10px 0;
+  font-size: 105%;
+  font-weight: 400;
+}
+
+.teams ion-icon {
+  margin-right: 10px;
+  display: inline-block;
+  color: #4a4a4a;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+.teams-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
 /*---------------------------------------------*/
 /* PACKAGES */
