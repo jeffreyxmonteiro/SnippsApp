@@ -41,7 +41,7 @@ h2 {
   font-size: 180%;
   word-spacing: 2px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 h3 {
@@ -146,147 +146,9 @@ h4 {
 /* FEATURES */
 /*---------------------------------------------*/
 
-#page-wrap { width: 960px; margin: 80px auto; }
-
-#rotator { width: 940px; height: 640px; position: relative; background: transparent; padding: 20px; }
-#block-1 { background: #ffffff; }
-#block-2 { background: #ffffff; }
-#block-3 { background: #ffffff; }
-#block-4 { background: #ffffff; }
-#rotator > div {
-  position: absolute;
-  overflow: hidden;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-}
-#rotator > div > div {
-  padding: 20px;
-}
-#rotator > div > div img {
-  margin: 0 auto;
-}
-#rotator .active { top: 20px; left: 10px; width: 440px; height: 600px; box-shadow: 0 0 10px rgba(0,0,0,0.4)}
-#rotator .non-active-top { top: 20px; left: 510px; height: 160px; width: 420px; }
-#rotator .non-active-bottom { top: 240px; left: 510px; height: 160px; width: 420px; }
-#rotator .non-active-bottom-bottom { top: 460px; left: 510px; height: 160px; width: 420px; }
-#rotator .non-active-top:hover, #rotator .non-active-bottom:hover, #rotator .non-active-bottom-bottom:hover {
-  cursor: pointer;
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
-}
-#rotator h4 {
-  text-align: center;
-  line-height: 130px;
-}
-#rotator .active h4 {
-  display: none;
-}
-
-.snipp-feature {
-  width: 300px;
-}
-
-/*---------------------------------------------*/
-/* SNIPPS FOR TEAMS */
-/*---------------------------------------------*/
-
-.tab-slider {
-  width: 600px;
-  height: 300px;
-  border: 1px solid tomato;
-  margin: 20px auto;
-}
-.tab-slider .ts-nav {
-  width: 30%;
-  height: 100%;
-  float: left;
-  background-color: yellow;
-  padding-left: 0;
-}
-.tab-slider .ts-nav li {
-  list-style: none;
-  height: 20%;
-  line-height: 60px;
-  padding-left: 20px;
-  cursor: pointer;
-}
-.tab-slider .ts-nav li:nth-child(2n) {
-  background-color: orange;
-}
-.ts-showcase {
-  position: relative;
-  overflow: hidden;
-  float: left;
-  height: 100%;
-  width: 70%;
-  background-color: tomato;
-}
-.ts-showcase .showcase-item {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 100%;
-  left: 0;
-  background-color: pink;
-  text-align: center;
-  line-height: 300px;
-  font-size: 100px;
-}
-.ts-showcase .showcase-item.active {
-  top: 0;
-  left: 0;
-}
-
-/*---------------------------------------------*/
-/* PACKAGES */
-/*---------------------------------------------*/
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans";
-  font-size: 15px;
-  line-height: 1.5;
-  background-color: #ddd;
-  color: #4A4A4A;
-}
-body * {
-  -webkit-transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-
-img {
-  height: auto;
-  max-width: 100%;
-}
 .colorblock {
   width: 100%;
   height: 700px;
-  &.limeade {
-    background: #a1ffce;
-    background: -webkit-linear-gradient(to right, #a1ffce, #faffd1);
-    background: linear-gradient(to right, #a1ffce, #faffd1);
-  }
-  &.miami-dolphins {
-    background: #4DA0B0;
-    background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);
-    background: linear-gradient(to right, #D39D38, #4DA0B0);
-  }
-  &.dania {
-    background: #BE93C5;
-  background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);
-  background: linear-gradient(to right, #7BC6CC, #BE93C5);
-
-  }
-  &.grapefruit-sunset {
-    background: #e96443;
-background: -webkit-linear-gradient(to right, #904e95, #e96443);
-background: linear-gradient(to right, #904e95, #e96443);
-  }
 }
 .content-wrapper {
   margin: 0 auto;
@@ -322,15 +184,15 @@ background: linear-gradient(to right, #904e95, #e96443);
   position: absolute;
   top: 0;
   width: 100%;
-  padding-top: 5%;
 }
 #hero-tabs .hero-tabs-nav {
   position: relative;
   z-index: 50;
   width: 100%;
-  max-width: 230px;
+  max-width: 250px;
   float: left;
   background-color: transparent;
+  margin-left: 110px;
 }
 #hero-tabs .tab-nav {
   display: block;
@@ -347,26 +209,29 @@ background: linear-gradient(to right, #904e95, #e96443);
   padding: 10px 0 10px;
   text-align: left;
   text-transform: uppercase;
-  color: white;
+  color: #4A4A4A;
 }
 #hero-tabs .tab span {
   padding: 3px 0;
+  border-bottom: 2px solid transparent;
 }
 #hero-tabs .tab-active span {
   font-weight: 700;
   letter-spacing: 1px;
+  border-bottom: 2px solid #EB56BB;
+  -webkit-transition: border-bottom 0.5s;
+  transition: border-bottom .5s;
 }
 #hero-tabs .hero-tabs-caption {
   position: relative;
   z-index: 50;
   float: left;
   width: 75%;
-  max-width: 550px;
+  max-width: 540px;
 }
 #hero-tabs .hero-tabs-caption .caption-wrapper {
-  background: #fff;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 35px 45px;
+  background: transparent;
+  text-align: center;
 }
 #hero-tabs .hero-tabs-caption .caption-wrapper .title {
     display: block;
@@ -380,6 +245,27 @@ background: linear-gradient(to right, #904e95, #e96443);
     padding: 15px 30px 20px;
   }
 }
+
+.snipp-feature {
+  width: 350px;
+}
+
+
+.tab-nav ion-icon {
+  margin-right: 10px;
+  display: inline-block;
+  color: #4a4a4a;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+/*---------------------------------------------*/
+/* SNIPPS FOR TEAMS */
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+/* PACKAGES */
+/*---------------------------------------------*/
 
 /*---------------------------------------------*/
 /* LEARN WITH US */
