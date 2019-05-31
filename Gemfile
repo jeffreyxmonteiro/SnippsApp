@@ -32,3 +32,4 @@ end
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'animate-rails', '~> 1.0', '>= 1.0.10'
+gem 'waypoints_rails', '~> 4.0', '>= 4.0.1'

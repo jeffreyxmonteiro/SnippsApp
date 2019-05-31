@@ -185,6 +185,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     warden (1.2.8)
       rack (>= 2.0.6)
+    waypoints_rails (4.0.1)
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -223,6 +224,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   uglifier
+  waypoints_rails (~> 4.0, >= 4.0.1)
   web-console (>= 3.3.0)
   webpacker
 
