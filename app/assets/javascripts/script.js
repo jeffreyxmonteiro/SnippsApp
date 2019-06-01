@@ -45,4 +45,5 @@ $(document).ready(function(){
     $('.js--wp-7').click(function() {
         $('.js--wp-8').addClass('animated fadeIn');
     });
+
 });
