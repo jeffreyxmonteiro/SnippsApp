@@ -45,10 +45,19 @@ h2 {
   font-family: "Merriweather", Georgia, serif;
 }
 
-.underlines h2:after {
+.underlined h2:after {
   display: block;
   height: 2px;
   background-color: #EB56BB;
+  content: "";
+  width: 200px;
+  margin: 30px auto;
+}
+
+.not-underlined h2:after {
+  display: block;
+  height: 2px;
+  background-color: transparent;
   content: "";
   width: 200px;
   margin: 30px auto;
