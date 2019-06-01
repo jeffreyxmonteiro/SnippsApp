@@ -410,9 +410,59 @@ h4 {
 }
 
 
+.floating-icon {
+  width: 25px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
+.twitter-float {
+    position: absolute;
+    left: 135px;
+    top: 200px;
+    animation: circular 10s linear infinite;
+}
 
+.podcast-float {
+    position: absolute;
+    left: 250px;
+    top: 350px;
+    animation: circular 15s linear infinite;
+}
 
+.mail-float {
+    position: absolute;
+    left: 90px;
+    top: 375px;
+    animation: circular 8s linear infinite;
+}
+
+.article-float {
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    animation: circular 7s linear infinite;
+}
+
+.book-float {
+    position: absolute;
+    right: 250px;
+    top: 350px;
+    animation: circular 10s linear infinite;
+}
+
+.youtube-float {
+    position: absolute;
+    right: 90px;
+    top: 375px;
+    animation: circular 15s linear infinite;
+}
+
+@keyframes circular {
+    from { transform: rotate(0deg) translateX(20px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(20px) rotate(-360deg); }
+}
 
 
 // .header-titles {
