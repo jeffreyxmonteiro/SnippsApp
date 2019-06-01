@@ -42,6 +42,7 @@ h2 {
   word-spacing: 2px;
   text-align: center;
   margin-bottom: 35px;
+  font-family: "Merriweather", Georgia, serif;
 }
 
 .underlines h2:after {
@@ -269,6 +270,10 @@ h4 {
   margin-top: -5px;
 }
 
+.section-features {
+  background-color: #fff;
+}
+
 /*---------------------------------------------*/
 /* SNIPPS FOR TEAMS */
 /*---------------------------------------------*/
@@ -282,7 +287,7 @@ h4 {
   list-style: none;
 }
 
-.teams ul li  {
+.section-teams ul li  {
   padding: 10px 0;
   font-size: 105%;
   font-weight: 400;
@@ -313,7 +318,7 @@ h4 {
 }
 
 .plan-box {
-  background-color: #fff;
+  background-color: #f4f4f4;
   border-radius: 5px;
   width: 25%;
   box-shadow: 0 2px 2px #efefef;
@@ -331,7 +336,7 @@ h4 {
   color: #EB56BB;
 }
 
-.plan-price-meal {
+.plan-price-description {
   font-size: 80%;
 }
 
@@ -361,7 +366,7 @@ h4 {
   border: 0;
 }
 .plan-box div:first-child {
-  background-color: #fcfcfc;
+  background-color: #eaeaea;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -372,6 +377,10 @@ h4 {
   align-items: center;
   justify-content: space-evenly;
   margin-top: 40px;
+}
+
+.section-plans {
+  background-color: #fff;
 }
 
 /*---------------------------------------------*/
