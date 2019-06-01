@@ -271,7 +271,7 @@ h4 {
   width: 550px;
 }
 
-.teams ul {
+.section-teams ul {
   display: inline-block;
   list-style: none;
 }
@@ -282,7 +282,7 @@ h4 {
   font-weight: 400;
 }
 
-.teams ion-icon {
+.section-teams ion-icon {
   margin-right: 10px;
   display: inline-block;
   color: #4a4a4a;
@@ -373,13 +373,30 @@ h4 {
 /*---------------------------------------------*/
 
 
+/*---------------------------------------------*/
+/* ANIMATIONS */
+/*---------------------------------------------*/
 
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-5 {
+  opacity: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
 
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-5.animated {
+  opacity: 1;
+}
 
-
-
-
-
+.js--wp-6 {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
 
 
 

@@ -19,14 +19,14 @@
 <section class="section-about">
   <h2>Remember What Matters</h2>
   <p class="long-copy">Snipp the parts you find most valuable and learn with like-minded curators. Whether it comes from a podcast, book, tweet, or video, all of your Snipps look the same on our platform to enhance your ability to retain and implement.</p>
-  <div class="snipps-container">
+  <div class="snipps-container js--wp-1">
     <%= image_tag('video_snipp.png', class: 'snipp-item')%>
     <%= image_tag('tweet_snipp.png', class: 'snipp-item')%>
     <%= image_tag('podcast_snipp.png', class: 'snipp-item')%>
   </div>
 </section>
 <section class="section-features">
-  <h2 class="js--wp-1">Save, Search, and Share What You Learn</h2>
+  <h2>Save, Search, and Share What You Learn</h2>
   <div id="hero-tabs">
     <div class="hero-tabs-image">
       <div class="one tab-content">
@@ -43,7 +43,7 @@
     <div class="hero-tabs-content">
       <div class="content-wrapper">
         <div class="hero-tabs-nav">
-          <div class="tab-nav">
+          <div class="tab-nav js--wp-3">
             <div class="tab tab-active" data-content=".one"><span><ion-icon name="cut"></ion-icon> Start with a Snipp</span></div>
             <div class="tab" data-content=".two"><span><ion-icon name="filing"></ion-icon> Build a Library</span></div>
             <div class="tab" data-content=".three"><span><ion-icon name="globe"></ion-icon> Discover Snipps</span></div>
@@ -52,7 +52,7 @@
           <!--tab-nav-->
         </div>
         <!--tab-nav-wrapper-->
-        <div class="hero-tabs-caption">
+        <div class="hero-tabs-caption js--wp-2">
           <div class="one tab-content tab-content-active">
             <div class="caption-wrapper">
               <%= image_tag('snipping.png', class: 'snipp-feature')%>
@@ -85,13 +85,17 @@
   <h2>Share Content More Effectively with Your Team</h2>
   <p class="long-copy">Snipps for Teams takes everything your team is learning and breaks it down into bite-sized takeaways. No more content overload. The use cases are endless for creating a database of short content takeaways.</p>
   <div class="teams-container">
-    <%= image_tag('teams_illustration.png', class: 'teams-illustration') %>
-    <ul>
-      <li><ion-icon name="checkmark"></ion-icon>Start a thread for a client RFP, Snipp and comment on the key areas.</li>
-      <li><ion-icon name="checkmark"></ion-icon>Snipp the takeaways from the book your club is reading.</li>
-      <li><ion-icon name="checkmark"></ion-icon>Have your students Snipp the case study assignment.</li>
-      <li><ion-icon name="checkmark"></ion-icon>Snipp industry best practices and new ideas to grow your company.</li>
-    </ul>
+    <div class="js--wp-4">
+      <%= image_tag('teams_illustration.png', class: 'teams-illustration') %>
+    </div>
+    <div class="js--wp-5">
+      <ul>
+        <li><ion-icon name="checkmark"></ion-icon>Start a thread for a client RFP, Snipp and comment on the key areas.</li>
+        <li><ion-icon name="checkmark"></ion-icon>Snipp the takeaways from the book your club is reading.</li>
+        <li><ion-icon name="checkmark"></ion-icon>Have your students Snipp the case study assignment.</li>
+        <li><ion-icon name="checkmark"></ion-icon>Snipp industry best practices and new ideas to grow your company.</li>
+      </ul>
+    </div>
   </div>
 </section>
 <section class="section-plans">
@@ -112,7 +116,7 @@
         </ul>
       </div>
     </div>
-    <div class="plan-box">
+    <div class="plan-box js--wp-6">
       <div>
         <h3>Premium</h3>
         <p class="plan-price">$10 <span>per month</span></p>
