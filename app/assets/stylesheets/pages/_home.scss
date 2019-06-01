@@ -44,6 +44,15 @@ h2 {
   margin-bottom: 35px;
 }
 
+.underlines h2:after {
+  display: block;
+  height: 2px;
+  background-color: #EB56BB;
+  content: "";
+  width: 200px;
+  margin: 30px auto;
+}
+
 h3 {
   font-size: 130%;
 }
