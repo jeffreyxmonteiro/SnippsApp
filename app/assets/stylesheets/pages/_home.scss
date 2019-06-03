@@ -164,7 +164,7 @@ h4 {
 /* FEATURES */
 /*---------------------------------------------*/
 
-.colorblock {
+.contentblock {
   width: 100%;
   height: 700px;
 }
@@ -256,19 +256,10 @@ h4 {
     display: block;
     font-size: 2.0em;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: uppercase; //
 }
 
-@media screen and (max-width: 700px) {
-  #hero-tabs .hero-tabs-caption .caption-wrapper {
-    padding: 15px 30px 20px;
-  }
-}
-
-.snipp-feature {
-  width: 350px;
-}
-
+.snipp-feature { width: 350px; }
 
 .tab-nav ion-icon {
   margin-right: 10px;
@@ -280,17 +271,6 @@ h4 {
 
 .section-features {
   background-color: #fff;
-}
-
-.mobile-snipps-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.mobile-snipp-item {
-  // width: 450px;
 }
 
 /*---------------------------------------------*/
@@ -554,6 +534,12 @@ h4 {
   .underlined h2:after { margin: 25px auto; }
   .not-underlined h2:after { margin: 25px auto; }
 
+  #hero-tabs .hero-tabs-nav {
+    max-width: 250px;
+    margin-left: 110px;
+  }
+
+  .snipp-feature { width: 300px; }
 
 }
 
