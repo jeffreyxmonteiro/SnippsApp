@@ -282,6 +282,17 @@ h4 {
   background-color: #fff;
 }
 
+.mobile-snipps-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-snipp-item {
+  // width: 450px;
+}
+
 /*---------------------------------------------*/
 /* SNIPPS FOR TEAMS */
 /*---------------------------------------------*/
@@ -542,6 +553,8 @@ h4 {
 
   .underlined h2:after { margin: 25px auto; }
   .not-underlined h2:after { margin: 25px auto; }
+
+
 }
 
 @media only screen and (max-width: 990px) {
