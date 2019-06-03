@@ -118,7 +118,6 @@ h4 {
   font-family: 'Lato', 'Arial', sans-serif;
   margin-bottom: 10px;
   padding: 14px 10px;
-  width: 20vw;
   min-width: 300px;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -568,4 +567,13 @@ h4 {
 @media only screen and (max-width: 415px) {
   body { font-size: 12px; }
 
+  .snipp-item { width: 350px; }
+}
+
+@media only screen and (max-width: 335px) {
+  body { font-size: 10px; }
+
+  #mailchimp input { min-width: 250px; }
+
+  .snipp-item { width: 280px; }
 }
