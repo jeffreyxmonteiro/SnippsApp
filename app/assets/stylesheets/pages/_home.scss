@@ -329,8 +329,9 @@ h4 {
 .plan-box {
   background-color: #f4f4f4;
   border-radius: 5px;
-  width: 25%;
+  min-width: 400px;
   box-shadow: 0 2px 2px #efefef;
+  margin: 15px 10px;
 }
 
 .plan-box div {
@@ -373,11 +374,13 @@ h4 {
 .plan-box div:last-child {
   text-align: left;
   border: 0;
+  min-height: 170px;
 }
 .plan-box div:first-child {
   background-color: #eaeaea;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  min-height: 210.43px;
 }
 
 .plans-container {
