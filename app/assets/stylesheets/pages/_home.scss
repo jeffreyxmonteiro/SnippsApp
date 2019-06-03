@@ -413,9 +413,7 @@ h4 {
 .js--wp-1.animated,
 .js--wp-2.animated,
 .js--wp-3.animated,
-.js--wp-5.animated {
-  opacity: 1;
-}
+.js--wp-5.animated { opacity: 1; }
 
 .js--wp-6.animated {
   -webkit-animation-duration: 3s;
@@ -487,56 +485,22 @@ h4 {
 /*---------------------------------------------*/
 
 @media only screen and (max-width: 1312px) {
-  .twitter-float {
-      left: 105px;
-  }
-
-  .podcast-float {
-      left: 200px;
-  }
-
-  .mail-float {
-      left: 60px;
-  }
-
-  .article-float {
-      right: 110px;
-  }
-
-  .book-float {
-      right: 210px;
-  }
-
-  .youtube-float {
-      right: 50px;
-  }
+  .twitter-float { left: 105px; }
+  .podcast-float { left: 200px; }
+  .mail-float { left: 60px; }
+  .article-float { right: 110px; }
+  .book-float { right: 210px; }
+  .youtube-float { right: 50px; }
 
 }
 
 @media only screen and (max-width: 1232px) {
-  .twitter-float {
-      left: 75px;
-  }
-
-  .podcast-float {
-      left: 165px;
-  }
-
-  .mail-float {
-      left: 30px;
-  }
-
-  .article-float {
-      right: 80px;
-  }
-
-  .book-float {
-      right: 175px;
-  }
-
-  .youtube-float {
-      right: 20px;
-  }
+  .twitter-float { left: 75px; }
+  .podcast-float { left: 165px; }
+  .mail-float { left: 30px; }
+  .article-float { right: 80px; }
+  .book-float { right: 175px; }
+  .youtube-float { right: 20px; }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -576,134 +540,17 @@ h4 {
 @media only screen and (max-width: 1023px) {
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 990px) {
+  .twitter-float { display: none; }
+  .podcast-float { display: none; }
+  .mail-float { display: none; }
+  .article-float { display: none; }
+  .book-float { display: none; }
+  .youtube-float { display: none; }
 }
+
+@media only screen and (max-width: 767px) {
+
 
 @media only screen and (max-width: 480px) {
 }
-
-// .header-titles {
-//   h1 {
-//     font-family: "Merriweather", Georgia, serif;
-//     font-size: calc(16px + 3.8vw);
-
-//   }
-//   h2 {
-//     font-family: "Merriweather", Georgia, serif;
-//     font-size: calc(16px + 2.5vw);
-//     padding-bottom: 20px;
-//   }
-//   color: #4A4A4A;
-//   text-transform: capitalize;
-//   text-align: center;
-//   width: 70vw;
-//   margin: auto;
-// }
-
-// .sub-header {
-//   text-align: center;
-//   width: 80vw;
-//   margin: auto;
-//   padding-top: 20px;
-// }
-
-// .responsive-spacer {
-//   width: 100%;
-//   height: auto;
-// }
-
-// .banner {
-//   p {
-//     line-height: 28px;
-//     color: #4A4A4A;
-//     padding: 20px;
-//     font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-//     font-size: calc(14px + 1.1vw);
-//     font-weight: 400;
-//   }
-//   display: flex;
-//   flex-direction: column;
-//   padding-top: 75px;
-//   padding-bottom: 80px;
-// }
-
-// .main-content {
-//   p {
-//   font-size: calc(10px + 1.1vw);
-//   font-weight: 400;
-//   }
-//   h3 {
-//   font-size: calc(3.6px + 3vw);
-//   font-weight: 800;
-//   }
-//   color: #4A4A4A;
-//   font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-// }
-
-
-// .spacer {
-//   padding-bottom: 80px;
-// }
-// .steps {
-//   padding-bottom: 40px;
-// }
-
-// .step-container {
-//   display: flex;
-//   justify-content: space-between;
-//   padding-bottom: 20px;
-// }
-
-// .step-copy {
-//   width: 42vw;
-//   margin: auto;
-// }
-
-// .step-mockup {
-//   width: 25vw;
-//   margin: auto;
-//   text-align: center;
-//   min-width: 190px;
-// }
-
-// .responsive-mockup {
-//   width: 100%;
-//   height: auto;
-// }
-
-// .responsive-snipp {
-//   width: 100%;
-//   height: auto;
-// }
-
-// .responsive-snipp-container {
-//   text-align: center;
-//   min-width: 300px;
-//   width: 26vw;
-// }
-
-// .phones-container {
-//   display: flex;
-//   justify-content: center;
-//   flex-wrap: wrap;
-// }
-
-// .info {
-//   padding-bottom: 40px;
-// }
-
-// .connect {
-//   display: flex;
-//   flex-direction: column;
-// }
-
-// .main-content-spacing {
-//   text-align: justify;
-//   width: 80vw;
-//   margin: auto;
-// }
-
-// .bottom-main-content-spacer {
-//   padding-bottom: 20px;
-// }
-
