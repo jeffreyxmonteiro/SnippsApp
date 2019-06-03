@@ -164,26 +164,19 @@ h4 {
 /* FEATURES */
 /*---------------------------------------------*/
 
-.contentblock {
-  width: 100%;
-  height: 700px;
-}
 .content-wrapper {
-  margin: 0 auto;
   padding: 0 50px;
-  width: 100%;
-  max-width: 1000px;
+  display: flex;
+  justify-content: center;
   clear: both;
   zoom: 1;
 }
 #hero-tabs {
   margin: 0 auto;
   position: relative;
+  height: 700px;
 }
-#hero-tabs .hero-tabs-image {
-  position: relative;
-  z-index: 1;
-}
+
 #hero-tabs .tab-content {
   position: relative;
   display: none;
@@ -195,18 +188,16 @@ h4 {
   height: auto;
   overflow: inherit;
 }
-#hero-tabs .hero-tabs-image .tab-content {
-  padding: 0;
-}
+
 #hero-tabs .hero-tabs-content {
   position: absolute;
   top: 0;
   width: 100%;
+  text-align: center;
 }
 #hero-tabs .hero-tabs-nav {
   position: relative;
   z-index: 50;
-  width: 100%;
   max-width: 250px;
   float: left;
   background-color: transparent;
@@ -228,6 +219,7 @@ h4 {
   text-align: left;
   text-transform: uppercase;
   color: #4A4A4A;
+  min-width: 247px;
 }
 
 #hero-tabs .tab span {
@@ -245,21 +237,11 @@ h4 {
   position: relative;
   z-index: 50;
   float: left;
-  width: 75%;
+  width: 100%;
   max-width: 540px;
 }
-#hero-tabs .hero-tabs-caption .caption-wrapper {
-  background: transparent;
-  text-align: center;
-}
-#hero-tabs .hero-tabs-caption .caption-wrapper .title {
-    display: block;
-    font-size: 2.0em;
-    font-weight: 700;
-    text-transform: uppercase; //
-}
 
-.snipp-feature { width: 350px; }
+.snipp-feature { width: 360px; }
 
 .tab-nav ion-icon {
   margin-right: 10px;
@@ -534,12 +516,7 @@ h4 {
   .underlined h2:after { margin: 25px auto; }
   .not-underlined h2:after { margin: 25px auto; }
 
-  #hero-tabs .hero-tabs-nav {
-    max-width: 250px;
-    margin-left: 110px;
-  }
 
-  .snipp-feature { width: 300px; }
 
 }
 
