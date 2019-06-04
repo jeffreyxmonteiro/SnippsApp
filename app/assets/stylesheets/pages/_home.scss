@@ -541,7 +541,9 @@ h4 {
   .underlined h2:after { margin: 25px auto; }
   .not-underlined h2:after { margin: 25px auto; }
 
-
+.plan-box { min-width: 380px; }
+.plan-box div:last-child { min-height: 150px; }
+.plan-box div:first-child { min-height: 190.43px; }
 
 }
 
@@ -572,6 +574,10 @@ h4 {
     width: 350px;
     margin-bottom: 20px;
   }
+
+  .plan-box { min-width: 340px; }
+  .plan-box div:last-child { min-height: 110px; }
+  .plan-box div:first-child { min-height: 150.43px; }
 }
 
 @media only screen and (max-width: 524px) {
@@ -593,6 +599,10 @@ h4 {
 
 @media only screen and (max-width: 448px) {
   body { font-size: 12px; }
+
+  .plan-box { min-width: 300px; }
+  .plan-box div:last-child { min-height: 30px; }
+  .plan-box div:first-child { min-height: 70.43px; }
 }
 
 @media only screen and (max-width: 415px) {
