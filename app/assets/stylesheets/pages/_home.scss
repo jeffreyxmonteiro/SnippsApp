@@ -71,14 +71,16 @@ h4 {
   font-size: 130%;
 }
 
-
 /* ------ Paragraphs ------ */
 
 .long-copy  {
   line-height: 145%;
   width: 62%;
   margin-left: 19%;
+  font-size: 100%;
 }
+
+
 
 /* ------ Buttons ------ */
 
@@ -104,7 +106,7 @@ h4 {
 
 .horizontal-mailchimp .mc-field-group,
 .horizontal-mailchimp .clear {
-     display: inline-block;
+  display: inline-block;
 }
 
 #mailchimp {
@@ -220,6 +222,7 @@ h4 {
   text-transform: uppercase;
   color: #4A4A4A;
   min-width: 247px;
+  font-size: 100%;
 }
 
 #hero-tabs .tab span {
@@ -269,7 +272,7 @@ h4 {
   text-transform: uppercase;
   color: #4A4A4A;
   margin-bottom: 15px;
-  font-size: 140%;
+  font-size: 100%;
 }
 
 .mobile-snipp-feature-item {
@@ -295,8 +298,9 @@ h4 {
 
 .section-teams ul li  {
   padding: 10px 0;
-  font-size: 105%;
+  font-size: 100%;
   font-weight: 400;
+  letter-spacing: .5px;
 }
 
 .section-teams ion-icon {
@@ -363,7 +367,7 @@ h4 {
 }
 
 .plan-box ion-icon {
-  font-size: 16px;
+  font-size: 80%;
   margin-right: 10px;
   color: #EB56BB;
 }
@@ -501,9 +505,18 @@ h4 {
   .article-float { right: 80px; }
   .book-float { right: 175px; }
   .youtube-float { right: 20px; }
+
+  .teams-illustration {
+    width: 450px;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
+  .long-copy  {
+    width: 70%;
+    margin-left: 15%;
+  }
 
 }
 
@@ -531,10 +544,14 @@ h4 {
       right: 20px;
       top: 355px;
   }
+
+  .long-copy  {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
-  body { font-size: 18px; }
   section { padding: 60px 0; }
   h2 { margin-bottom: 30px; }
 
@@ -557,9 +574,11 @@ h4 {
 }
 
 @media only screen and (max-width: 767px) {
-  body { font-size: 16px; }
   section { padding: 30px 0; }
   h1 { font-size: 180%; }
+  #mailchimp input { font-size: 100%; }
+  #mailchimp input[type="submit"] { font-size: 100%; }
+
   h2 { font-size: 150%;
         margin-bottom: 25px;
         }
@@ -585,6 +604,11 @@ h4 {
     padding: 5px 0;
     font-size: 90%;
   }
+
+  h1 { font-size: 160%; }
+  h3 { font-size: 110%; }
+  #mailchimp input { font-size: 90%; }
+  #mailchimp input[type="submit"] { font-size: 90%; }
 }
 
 @media only screen and (max-width: 486px) {
@@ -598,7 +622,10 @@ h4 {
 }
 
 @media only screen and (max-width: 448px) {
-  body { font-size: 12px; }
+  h1 { font-size: 140%; }
+  h3 { font-size: 90%; }
+  #mailchimp input { font-size: 80%; }
+  #mailchimp input[type="submit"] { font-size: 80%; }
 
   .plan-box { min-width: 300px; }
   .plan-box div:last-child { min-height: 30px; }
@@ -606,6 +633,11 @@ h4 {
 }
 
 @media only screen and (max-width: 415px) {
+
+  h1 { font-size: 120%; }
+  h3 { font-size: 70%; }
+  #mailchimp input { font-size: 70%; }
+  #mailchimp input[type="submit"] { font-size: 70%; }
 
   h2 { margin-bottom: 20px; }
 
@@ -619,16 +651,14 @@ h4 {
     margin: 15px auto;
   }
 
-  .long-copy  {
-    width: 76%;
-    margin-left: 12%;
-  }
-
   .teams-illustration { width: 300px; }
 
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 345px) {
+  h1 { font-size: 110%; }
+  h3 { font-size: 65%; }
+
   h2 { margin-bottom: 15px; }
 
   .underlined h2:after {
@@ -641,11 +671,6 @@ h4 {
     height: 1px;
     width: 125px;
     margin: 10px auto;
-  }
-
-  .long-copy  {
-    width: 80%;
-    margin-left: 10%;
   }
 
   #mailchimp input { min-width: 250px; }
