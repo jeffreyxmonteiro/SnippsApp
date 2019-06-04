@@ -286,9 +286,7 @@ h4 {
 /* SNIPPS FOR TEAMS */
 /*---------------------------------------------*/
 
-.teams-illustration {
-  width: 550px;
-}
+.teams-illustration { width: 550px; }
 
 .section-teams ul {
   display: inline-block;
@@ -569,6 +567,18 @@ h4 {
   .mobile-features-container { display: flex; }
 
   #hero-tabs { display: none; }
+
+  .teams-illustration {
+    width: 350px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 524px) {
+  .section-teams ul li  {
+    padding: 5px 0;
+    font-size: 90%;
+  }
 }
 
 @media only screen and (max-width: 486px) {
@@ -581,8 +591,11 @@ h4 {
   section { padding: 25px 0; }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 448px) {
   body { font-size: 12px; }
+}
+
+@media only screen and (max-width: 415px) {
 
   h2 { margin-bottom: 20px; }
 
@@ -601,9 +614,11 @@ h4 {
     margin-left: 12%;
   }
 
+  .teams-illustration { width: 300px; }
+
 }
 
-@media only screen and (max-width: 335px) {
+@media only screen and (max-width: 340px) {
   h2 { margin-bottom: 15px; }
 
   .underlined h2:after {
@@ -626,4 +641,6 @@ h4 {
   #mailchimp input { min-width: 250px; }
 
   .snipp-item { width: 280px; }
+
+  .section-teams ul li  { font-size: 85%; }
 }
