@@ -330,7 +330,7 @@ h4 {
 .plan-box {
   background-color: #f4f4f4;
   border-radius: 5px;
-  min-width: 400px;
+  width: 400px;
   box-shadow: 0 2px 2px #efefef;
   margin: 15px 10px;
 }
@@ -364,6 +364,7 @@ h4 {
 
 .plan-box ul li {
   padding: 5px 0;
+  font-size: 100%;
 }
 
 .plan-box ion-icon {
@@ -375,13 +376,13 @@ h4 {
 .plan-box div:last-child {
   text-align: left;
   border: 0;
-  min-height: 170px;
+  height: 170px;
 }
 .plan-box div:first-child {
   background-color: #eaeaea;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  min-height: 210.43px;
+  height: 210.43px;
 }
 
 .plans-container {
@@ -557,11 +558,6 @@ h4 {
 
   .underlined h2:after { margin: 25px auto; }
   .not-underlined h2:after { margin: 25px auto; }
-
-.plan-box { min-width: 380px; }
-.plan-box div:last-child { min-height: 150px; }
-.plan-box div:first-child { min-height: 190.43px; }
-
 }
 
 @media only screen and (max-width: 990px) {
@@ -600,9 +596,7 @@ h4 {
     margin-bottom: 20px;
   }
 
-  .plan-box { min-width: 340px; }
-  .plan-box div:last-child { min-height: 110px; }
-  .plan-box div:first-child { min-height: 150.43px; }
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -657,9 +651,21 @@ h4 {
 
   .section-teams ul li { font-size: 65%; }
 
-  .plan-box { min-width: 300px; }
-  .plan-box div:last-child { min-height: 30px; }
-  .plan-box div:first-child { min-height: 70.43px; }
+  .plan-box ul li {
+    padding: 2px 0;
+    font-size: 70%;
+  }
+
+  .plan-price-description { font-size: 65%; }
+
+  h4 { font-size: 100%; }
+
+  .plan-price  { font-size: 250%; }
+
+  .plan-box { width: 300px; }
+  .plan-box div:last-child { height: 120px; }
+  .plan-box div:first-child { height: 160.43px; }
+
 }
 
 @media only screen and (max-width: 415px) {
