@@ -71,14 +71,16 @@ h4 {
   font-size: 130%;
 }
 
-
 /* ------ Paragraphs ------ */
 
 .long-copy  {
   line-height: 145%;
   width: 62%;
   margin-left: 19%;
+  font-size: 100%;
 }
+
+
 
 /* ------ Buttons ------ */
 
@@ -104,7 +106,7 @@ h4 {
 
 .horizontal-mailchimp .mc-field-group,
 .horizontal-mailchimp .clear {
-     display: inline-block;
+  display: inline-block;
 }
 
 #mailchimp {
@@ -220,6 +222,7 @@ h4 {
   text-transform: uppercase;
   color: #4A4A4A;
   min-width: 247px;
+  font-size: 100%;
 }
 
 #hero-tabs .tab span {
@@ -265,11 +268,11 @@ h4 {
 .mobile-headers {
   font-weight: 700;
   letter-spacing: 1px;
-  border-bottom: 2px solid #EB56BB;
+  border-bottom: 2px solid transparent;
   text-transform: uppercase;
   color: #4A4A4A;
   margin-bottom: 15px;
-  font-size: 140%;
+  font-size: 100%;
 }
 
 .mobile-snipp-feature-item {
@@ -295,8 +298,9 @@ h4 {
 
 .section-teams ul li  {
   padding: 10px 0;
-  font-size: 105%;
+  font-size: 100%;
   font-weight: 400;
+  letter-spacing: .5px;
 }
 
 .section-teams ion-icon {
@@ -326,7 +330,7 @@ h4 {
 .plan-box {
   background-color: #f4f4f4;
   border-radius: 5px;
-  min-width: 400px;
+  width: 400px;
   box-shadow: 0 2px 2px #efefef;
   margin: 15px 10px;
 }
@@ -360,10 +364,11 @@ h4 {
 
 .plan-box ul li {
   padding: 5px 0;
+  font-size: 100%;
 }
 
 .plan-box ion-icon {
-  font-size: 16px;
+  font-size: 80%;
   margin-right: 10px;
   color: #EB56BB;
 }
@@ -371,13 +376,13 @@ h4 {
 .plan-box div:last-child {
   text-align: left;
   border: 0;
-  min-height: 170px;
+  height: 170px;
 }
 .plan-box div:first-child {
   background-color: #eaeaea;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  min-height: 210.43px;
+  height: 210.43px;
 }
 
 .plans-container {
@@ -501,9 +506,18 @@ h4 {
   .article-float { right: 80px; }
   .book-float { right: 175px; }
   .youtube-float { right: 20px; }
+
+  .teams-illustration {
+    width: 450px;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
+  .long-copy  {
+    width: 70%;
+    margin-left: 15%;
+  }
 
 }
 
@@ -531,20 +545,19 @@ h4 {
       right: 20px;
       top: 355px;
   }
+
+  .long-copy  {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
-  body { font-size: 18px; }
   section { padding: 60px 0; }
   h2 { margin-bottom: 30px; }
 
   .underlined h2:after { margin: 25px auto; }
   .not-underlined h2:after { margin: 25px auto; }
-
-.plan-box { min-width: 380px; }
-.plan-box div:last-child { min-height: 150px; }
-.plan-box div:first-child { min-height: 190.43px; }
-
 }
 
 @media only screen and (max-width: 990px) {
@@ -554,19 +567,27 @@ h4 {
   .article-float { display: none; }
   .book-float { display: none; }
   .youtube-float { display: none; }
+
+  .long-copy  {
+    width: 86%;
+    margin-left: 7%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-  body { font-size: 16px; }
   section { padding: 30px 0; }
   h1 { font-size: 180%; }
-  h2 { font-size: 150%;
-        margin-bottom: 25px;
-        }
+  #mailchimp input { font-size: 100%; }
+  #mailchimp input[type="submit"] { font-size: 100%; }
+
+  h2 { font-size: 160%; }
+
   .underlined h2:after { margin: 20px auto; }
   .not-underlined h2:after { margin: 20px auto; }
 
   .mobile-features-container { display: flex; }
+
+  .not-underlined h2:after { background-color: #EB56BB; }
 
   #hero-tabs { display: none; }
 
@@ -575,21 +596,46 @@ h4 {
     margin-bottom: 20px;
   }
 
-  .plan-box { min-width: 340px; }
-  .plan-box div:last-child { min-height: 110px; }
-  .plan-box div:first-child { min-height: 150.43px; }
+
 }
 
-@media only screen and (max-width: 524px) {
+@media only screen and (max-width: 650px) {
+  h2 { font-size: 130%; }
+  .long-copy  { font-size: 95%; }
+  .mobile-headers  { font-size: 95%; }
   .section-teams ul li  {
-    padding: 5px 0;
-    font-size: 90%;
+    font-size: 80%;
   }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+  h2 { font-size: 110%; }
+  .long-copy  { font-size: 90%; }
+  .mobile-headers  { font-size: 90%; }
+
+  .section-teams ul li  {
+    font-size: 75%;
+    letter-spacing: 0px;
+  }
+
+  h1 { font-size: 160%; }
+  h3 { font-size: 110%; }
+  #mailchimp input { font-size: 90%; }
+  #mailchimp input[type="submit"] { font-size: 90%; }
 }
 
 @media only screen and (max-width: 486px) {
-  h2 { font-size: 140%; }
 
+  h2 {
+    letter-spacing: .5px;
+    font-size: 100%;
+  }
+
+  .long-copy  { font-size: 80%; }
+  .mobile-headers  { font-size: 80%; }
+  .section-teams ul li { font-size: 70%; }
   .snipp-item { width: 350px; }
 }
 
@@ -597,17 +643,47 @@ h4 {
   section { padding: 25px 0; }
 }
 
-@media only screen and (max-width: 448px) {
-  body { font-size: 12px; }
+@media only screen and (max-width: 455px) {
+  h1 { font-size: 140%; }
+  h3 { font-size: 90%; }
+  #mailchimp input { font-size: 80%; }
+  #mailchimp input[type="submit"] { font-size: 80%; }
 
-  .plan-box { min-width: 300px; }
-  .plan-box div:last-child { min-height: 30px; }
-  .plan-box div:first-child { min-height: 70.43px; }
+  .section-teams ul li { font-size: 65%; }
+
+  .plan-box ul li {
+    padding: 2px 0;
+    font-size: 70%;
+  }
+
+  .plan-price-description { font-size: 65%; }
+
+  h4 { font-size: 100%; }
+
+  .plan-price  { font-size: 250%; }
+
+  .plan-box { width: 300px; }
+  .plan-box div:last-child { height: 120px; }
+  .plan-box div:first-child { height: 160.43px; }
+
 }
 
 @media only screen and (max-width: 415px) {
 
-  h2 { margin-bottom: 20px; }
+  h1 { font-size: 120%; }
+  h3 { font-size: 70%; }
+  #mailchimp input { font-size: 70%; }
+  #mailchimp input[type="submit"] { font-size: 70%; }
+
+  h2 {
+    letter-spacing: 0px;
+    font-size: 88%;
+    margin-bottom: 20px;
+  }
+
+  .long-copy  { font-size: 75%; }
+  .mobile-headers  { font-size: 75%; }
+  .section-teams ul li { font-size: 60%; }
 
   .underlined h2:after {
     width: 150px;
@@ -617,19 +693,25 @@ h4 {
   .not-underlined h2:after {
     width: 150px;
     margin: 15px auto;
-  }
-
-  .long-copy  {
-    width: 76%;
-    margin-left: 12%;
   }
 
   .teams-illustration { width: 300px; }
 
 }
 
-@media only screen and (max-width: 340px) {
-  h2 { margin-bottom: 15px; }
+
+@media only screen and (max-width: 345px) {
+  h1 { font-size: 110%; }
+  h3 { font-size: 65%; }
+
+  h2 {
+    font-size: 85%;
+    margin-bottom: 15px;
+  }
+
+  .long-copy  { font-size: 70%; }
+  .mobile-headers  { font-size: 70%; }
+  .section-teams ul li { font-size: 55%; }
 
   .underlined h2:after {
     height: 1px;
@@ -643,14 +725,8 @@ h4 {
     margin: 10px auto;
   }
 
-  .long-copy  {
-    width: 80%;
-    margin-left: 10%;
-  }
-
   #mailchimp input { min-width: 250px; }
 
   .snipp-item { width: 280px; }
 
-  .section-teams ul li  { font-size: 85%; }
 }
