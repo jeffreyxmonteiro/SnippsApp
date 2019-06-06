@@ -115,12 +115,10 @@ h4 {
 #mailchimp input {
   border: medium none;
   color: #4A4A4A;
-  font-size: 110%;
   font-weight: 300;
   font-family: 'Lato', 'Arial', sans-serif;
   margin-bottom: 10px;
   padding: 14px 10px;
-  min-width: 300px;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -129,6 +127,8 @@ h4 {
 #mailchimp input.email {
   background: #fff;
   margin-right: 10px;
+  min-width: 350px;
+  font-size: 110%;
 }
 
 #mailchimp input[type="submit"] {
@@ -141,6 +141,7 @@ h4 {
   font-size: 110%;
   letter-spacing: 1px;
   text-transform: uppercase;
+  min-width: 270px;
 }
 
 #mailchimp input[type="submit"]:hover {
@@ -577,8 +578,14 @@ h4 {
 @media only screen and (max-width: 767px) {
   section { padding: 30px 0; }
   h1 { font-size: 180%; }
-  #mailchimp input { font-size: 100%; }
-  #mailchimp input[type="submit"] { font-size: 100%; }
+  #mailchimp input.email {
+    font-size: 100%;
+    min-width: 340px;
+  }
+  #mailchimp input[type="submit"] {
+    font-size: 100%;
+    min-width: 260px;
+  }
 
   h2 { font-size: 160%; }
 
@@ -598,6 +605,16 @@ h4 {
 
 
 }
+
+@media only screen and (max-width: 653px) {
+  #mailchimp input.email {
+    min-width: 320px;
+  }
+  #mailchimp input[type="submit"] {
+    min-width: 320px;
+  }
+}
+
 
 @media only screen and (max-width: 650px) {
   h2 { font-size: 130%; }
@@ -622,8 +639,14 @@ h4 {
 
   h1 { font-size: 160%; }
   h3 { font-size: 110%; }
-  #mailchimp input { font-size: 90%; }
-  #mailchimp input[type="submit"] { font-size: 90%; }
+  #mailchimp input.email {
+    font-size: 90%;
+    min-width: 300px;
+  }
+  #mailchimp input[type="submit"] {
+    font-size: 90%;
+    min-width: 300px;
+  }
 }
 
 @media only screen and (max-width: 486px) {
@@ -646,8 +669,14 @@ h4 {
 @media only screen and (max-width: 455px) {
   h1 { font-size: 140%; }
   h3 { font-size: 90%; }
-  #mailchimp input { font-size: 80%; }
-  #mailchimp input[type="submit"] { font-size: 80%; }
+  #mailchimp input.email {
+    font-size: 80%;
+    min-width: 290px;
+  }
+  #mailchimp input[type="submit"] {
+    font-size: 80%;
+    min-width: 290px;
+  }
 
   .section-teams ul li { font-size: 65%; }
 
@@ -672,8 +701,14 @@ h4 {
 
   h1 { font-size: 120%; }
   h3 { font-size: 70%; }
-  #mailchimp input { font-size: 70%; }
-  #mailchimp input[type="submit"] { font-size: 70%; }
+  #mailchimp input.email {
+    font-size: 70%;
+    min-width: 260px;
+  }
+  #mailchimp input[type="submit"] {
+    font-size: 70%;
+    min-width: 260px;
+  }
 
   h2 {
     letter-spacing: 0px;
